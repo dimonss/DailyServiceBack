@@ -7,7 +7,7 @@
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js",
-    "start:prod": "pm2 start dist/index.js --name DailyServiceBackend --interpreter ~/.nvm/versions/node/v24.13.1/bin/node",
+    "start:prod": "pm2 start dist/index.js --name DailyServiceBackend --interpreter ~/.nvm/versions/node/v24.22.1/bin/node",
     "db:push": "drizzle-kit push"
   },
   "dependencies": {
